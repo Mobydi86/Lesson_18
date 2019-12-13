@@ -1,8 +1,8 @@
-@media screen and ( max-width: 1200px ) /*breakpoint2: от 992 до 1200px — мониторы компьютеров*/
+@media screen and ( max-width: 1280px ) /*breakpoint2: от 992 до 1200px — мониторы компьютеров*/
   .nav
     &__item
       margin-right: 1rem
-@media screen and ( max-width: 992px ) /*breakpoint3: от 768 до 992px  — планшеты*/
+@media screen and ( max-width: 1100px ) /*breakpoint3: от 768 до 992px  — планшеты*/
   .nav
     display: none
   .hero
@@ -10,7 +10,7 @@
       display: none
     &__content
       margin-left: 0
-@media screen and ( max-width: 768px ) /*breakpoint4: от 576 до 768px — смартфоны / планшеты*/
+@media screen and ( max-width: 800px ) /*breakpoint4: от 576 до 768px — смартфоны / планшеты*/
   .nav
     display: none
   .hero
@@ -18,7 +18,7 @@
       display: none
     &__content
       margin-left: 0
-@media screen and ( max-width: 576px ) /*breakpoint5: от 320 до 576px — смартфоны */ 
+@media screen and ( max-width: 600px ) /*breakpoint5: от 320 до 576px — смартфоны */ 
   .contacts
     &__phone
       margin-right: 0
@@ -29,16 +29,23 @@
   .title
     font-size: 1.64rem
   .hero
+    &__title
+      font-size: 1.64rem
+      max-width: 22.86rem
+      margin-bottom: 1.14rem 
     &__scroll-down
       display: none
     &__content
-      max-width: 22.86rem  
+      flex-direction: column
+      max-width: 100% 
     &__text
       font-size: 1.29rem
+      max-width: 22.86rem 
       margin-bottom: 2.28rem
     &__button
       display: block
-      min-width: 22.86rem
+      min-width: 100%
+      padding: 1.35rem 3rem
       margin-bottom: 1.85rem
 @media screen and (max-height: 570px )
  .hero

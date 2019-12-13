@@ -509,11 +509,11 @@ body {
   .title--primary {
     color: #E3B873; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .nav__item {
     margin-right: 1rem; } }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
   .nav {
     display: none; }
   .hero__instagram {
@@ -521,7 +521,7 @@ body {
   .hero__content {
     margin-left: 0; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .nav {
     display: none; }
   .hero__instagram {
@@ -529,7 +529,7 @@ body {
   .hero__content {
     margin-left: 0; } }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .contacts__phone {
     margin-right: 0;
     color: #fff;
@@ -538,16 +538,23 @@ body {
     display: none; }
   .title {
     font-size: 1.64rem; }
+  .hero__title {
+    font-size: 1.64rem;
+    max-width: 22.86rem;
+    margin-bottom: 1.14rem; }
   .hero__scroll-down {
     display: none; }
   .hero__content {
-    max-width: 22.86rem; }
+    flex-direction: column;
+    max-width: 100%; }
   .hero__text {
     font-size: 1.29rem;
+    max-width: 22.86rem;
     margin-bottom: 2.28rem; }
   .hero__button {
     display: block;
-    min-width: 22.86rem;
+    min-width: 100%;
+    padding: 1.35rem 3rem;
     margin-bottom: 1.85rem; } }
 
 @media screen and (max-height: 570px) {
