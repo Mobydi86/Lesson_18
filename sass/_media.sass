@@ -3,6 +3,8 @@
     &__item
       margin-right: 1rem
 @media screen and ( max-width: 1100px ) /*breakpoint3: от 768 до 992px  — планшеты*/
+  .container
+    width: 86.4%
   .nav
     display: none
   .hero
@@ -11,6 +13,8 @@
     &__content
       margin-left: 0
 @media screen and ( max-width: 800px ) /*breakpoint4: от 576 до 768px — смартфоны / планшеты*/
+  .container
+    width: 89.4%  
   .nav
     display: none
   .hero
@@ -19,9 +23,15 @@
     &__content
       margin-left: 0
 @media screen and ( max-width: 600px ) /*breakpoint5: от 320 до 576px — смартфоны */ 
+  .container
+    width: 90.4%
+  .menu
+    font-size: 0.91rem
+    &__logo
+      font-size: 0.91rem
   .contacts
     &__phone
-      margin-right: 0
+      margin: auto
       color: $light
       text-decoration: none
     &__button
